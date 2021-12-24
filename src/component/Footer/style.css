@@ -1,0 +1,8 @@
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #ddd;
+}
+footer p {
+  font-size: 20px;
+}

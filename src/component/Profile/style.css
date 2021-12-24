@@ -1,0 +1,77 @@
+.profile {
+  padding: 50px 0;
+}
+
+.profile .container {
+  display: flex;
+  justify-content: center;
+}
+
+.profile .container .info {
+  width: 50%;
+}
+
+.profile .container .info h3 {
+  font-size: 40px;
+  padding-bottom: 15px;
+}
+
+.profile .container .info .row {
+  display: flex;
+}
+
+.profile .container .info .row .col {
+  display: flex;
+  flex-direction: column;
+}
+.profile .container .info .row .col span {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.profile .container .info .row .col:first-child span {
+  font-weight: bold;
+  margin-right: 25px;
+}
+
+.profile .container .skills {
+  width: 50%;
+}
+
+.profile .container .skills h3 {
+  font-size: 40px;
+}
+
+.profile .container .skills p {
+  color: #777;
+  padding: 20px 0;
+}
+
+.profile .container .skills .progress {
+}
+.profile .container .skills .progress .prog {
+  margin-bottom: 15px;
+}
+
+.profile .container .skills .progress .prog .text {
+  display: flex;
+  justify-content: space-between;
+}
+.profile .container .skills .progress .prog .text h4 {
+  font-weight: lighter;
+  font-size: 18px;
+}
+
+.profile .container .skills .progress .prog .text span {
+  font-size: 18px;
+}
+
+.profile .container .skills .progress .prog .main-bar {
+  background-color: #eee;
+  height: 2px;
+}
+.profile .container .skills .progress .prog .bar {
+  height: 2px;
+  background-color: red;
+  margin-top: 10px;
+}

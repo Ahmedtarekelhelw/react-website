@@ -1,0 +1,74 @@
+{
+    "work":[
+        {
+            "id":1,
+            "icon":"fas fa-link",
+            "title":"Mobile Ux",
+            "Pargraph":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quos omnis voluptas ea ipsam! Voluptas."
+        },
+        {
+            "id":2,
+            "icon":"fas fa-bolt",
+            "title":"Mobile Ux",
+            "Pargraph":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quos omnis voluptas ea ipsam! Voluptas."
+        },
+        {
+            "id":3,
+            "icon":"fas fa-tachometer-alt",
+            "title":"Mobile Ux",
+            "Pargraph":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quos omnis voluptas ea ipsam! Voluptas."
+        }
+    ],
+    "portfolio":[
+        {
+            "id":1,
+            "src":"./images/Portfolio/portfolio-img1.jpg"
+        },
+        {
+            "id":2,
+            "src":"./images/Portfolio/portfolio-img2.jpg"
+        },
+        {
+            "id":3,
+            "src":"./images/Portfolio/portfolio-img3.jpg"
+        },
+        {
+            "id":4,
+            "src":"./images/Portfolio/portfolio-img4.jpg"
+        },
+        {
+            "id":5,
+            "src":"./images/Portfolio/portfolio-img5.jpg"
+        },
+        {
+            "id":6,
+            "src":"./images/Portfolio/portfolio-img6.jpg"
+        },
+        {
+            "id":7,
+            "src":"./images/Portfolio/portfolio-img7.jpg"
+        },
+        {
+            "id":8,
+            "src":"./images/Portfolio/portfolio-img8.jpg"
+        }
+    ],
+    "profile":[
+        {"id":1,"info":"Hamza Nabil"},
+        {"id":2,"info":"21/1/1996"},
+        {"id":3,"info":"Ain shams"},
+        {"id":4,"info":"123 456 789"},
+        {"id":5,"info":"Email@email.com"},
+        {"id":6,"info":"www.google.com"}
+    ],
+    "myskills":[
+        {"id":1,"skill":"Bootstrap" , "percentage":"70%"},
+        {"id":2,"skill":"CSS", "percentage":"40%"},
+        {"id":3,"skill":"JS", "percentage":"90%"}
+    ],
+    "social":[
+        {"id":1 , "icon":"fab fa-facebook-square" , "mainText":"FOLLOW ME ON" , "secText":"SOCIAL FACEBOOK"},
+        {"id":2 , "icon":"fab fa-twitter-square" ,"mainText":"TWEET ME ON" ,"secText":"SOCIAL TWITTER"},
+        {"id":3 , "icon":"fab fa-pinterest-square" ,"mainText":"PIN ME ON" ,"secText":"SOCIAL PINTERSER"}
+    ]
+}

@@ -1,0 +1,39 @@
+header {
+  min-height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav .logo {
+}
+
+header nav .logo a {
+  color: #000;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+header nav ul {
+  display: flex;
+  align-items: center;
+}
+
+header nav ul li:not(:last-child) {
+  padding-right: 35px;
+}
+header nav ul li .link {
+  text-transform: capitalize;
+  color: #000;
+  font-size: 19px;
+}
+
+header nav ul li .link:hover {
+  color: red;
+}

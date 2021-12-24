@@ -1,2 +1,2 @@
-cd react-project
+cd react-website
 code .&& npm start

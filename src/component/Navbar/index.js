@@ -8,7 +8,7 @@ function Navbar() {
       <div className="container">
         <nav>
           <div className="logo">
-            <NavLink to="/">Ultra Profile</NavLink>
+            <NavLink to="/react-website/">Ultra Profile</NavLink>
           </div>
           <ul>
             <li>
@@ -17,29 +17,24 @@ function Navbar() {
               </NavLink>
             </li>
             <li>
-              <NavLink className="link" to="/work">
+              <a className="link" href="#work">
                 work
-              </NavLink>
+              </a>
             </li>
             <li>
-              <NavLink className="link" to="/portfolio">
+              <a className="link" href="#portfolio">
                 portfolio
-              </NavLink>
+              </a>
             </li>
             <li>
-              <NavLink className="link" to="/profile">
+              <a className="link" href="#profile">
                 profile
-              </NavLink>
+              </a>
             </li>
             <li>
-              <NavLink className="link" to="/about">
+              <a className="link" href="#about">
                 about
-              </NavLink>
-            </li>
-            <li>
-              <NavLink className="link" to="/Contact">
-                contact
-              </NavLink>
+              </a>
             </li>
           </ul>
         </nav>
